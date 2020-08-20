@@ -1,0 +1,49 @@
+.item_list-container{
+    width: 100%;
+    display: flex;
+    padding: 20px 10px ;
+    font-size: 16px;
+    color: black;
+    font-family: 'Graphik';
+    border: .6px solid #ebeced;
+    height: 20px;
+    align-items: center;
+}
+
+.item_list_name{
+    width: 20%;
+}
+
+.item_list_description{
+    width: 55%;
+}
+
+.item_list_price{
+    width: 25%;
+    text-align: center;
+}
+
+.item_list_btns{
+    display: flex;
+    margin-left: auto;
+}
+
+.item_list_btns div{
+    width: auto;
+}
+.btn_ver, .btn_modificar, .btn_eliminar{
+    background-color: white;
+    border: .6px solid #ebeced;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.btn_ver:hover, .btn_ver:link, .btn_ver:visited{
+    color: black;
+}
+.btn_modificar:hover, .btn_modificar:link, .btn_modificar:visited{
+    color: black;
+}
+.btn_eliminar:hover, .btn_eliminar:link, .btn_eliminar::visited{
+    color: black;
+}

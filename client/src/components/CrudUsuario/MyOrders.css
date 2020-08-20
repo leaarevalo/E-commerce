@@ -1,0 +1,13 @@
+.my_orders_list{
+    width: 40%;
+    margin: auto;
+    padding-top: 30px;
+}
+.my_orders_header h2{
+    font-size: 40px;
+    font-family: 'Nanum Regular';
+    font-weight: 250;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px ;
+}

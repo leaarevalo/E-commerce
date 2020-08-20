@@ -1,0 +1,73 @@
+.danger {
+    color: red;
+}
+.container_form{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.titulo_form h1{
+    color: black;
+    font-size: 28px;
+    font-family: 'Nanum Regular';
+    font-weight: 300;
+    text-align: center;
+    margin-top: 40px;
+}
+/*FORMULARIO*/
+.crud_update_product_form{
+    padding-top: 15px;
+    display: flex;   
+    font-family: 'Graphik'; 
+}
+.form_left{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.form_right{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.form_input_name, .form_input_desc, .form_input_price, .form_input_category, .form_input_keywords, .form_input_submit{
+    padding-top: 27px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-start;
+}
+.crud_update_product_form label{
+    padding: 8px 0;
+    width: 23%;  
+}
+.crud_update_product_form input{
+    width: 72%;
+    padding: 0 5px;
+    font-family: 'Graphik';
+    font-size: 16px ;
+    border: .8px solid #d7d8da;
+}
+.crud_update_product_form textarea{
+    width: 72%;
+    padding: 5px;
+    font-family: 'Graphik';
+    font-size: 16px ;
+    border: .8px solid #d7d8da;
+}
+.product_description {
+    padding: 8px;
+}
+.form_input_category select{
+    border: .8px solid #d7d8da;
+    padding: 5px;
+}
+.form_input_submit{
+    justify-content: center;
+} 
+.form_input_submit input{
+    padding: 10px;
+    margin-top: 20px;
+    align-self: center;
+    justify-content: center;
+}

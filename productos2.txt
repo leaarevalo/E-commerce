@@ -1,0 +1,48 @@
+PRODUCTOS (segunda parte):
+name:'Aro Argolla Strass',
+price:650, 
+category: 'aros',
+arrayColors:[{name: 'Negro', hexaColor: '#000000', image: 'img/aros/a-argolla-strass-negro.jpg', main: false}, {name: 'Ambar', hexaColor: '#f5b277',image: 'img/aros/a-argolla-strass-ambar.jpg', main: true}], 
+description:"Aros argollas de cristal facetado con strass",
+image: ,
+keywords: [strass, aros, argollas, fiesta, noche]
+
+name:'Choker zig-zag',
+price:690, 
+category: 'chokers',
+arrayColors:[{name: 'Niquel', hexaColor: '#c8c6b9', image: 'img/chokers/ch-zz-niquel.jpg', main: true}, {name: 'Perla', hexaColor: '#ebe6d4',image: 'img/chokers/ch-zz-perla.jpg', main: false}], 
+description:"Choker con diseño en zig-zag y detalles de metal, confeccionado en perlas o metal color niquel.",
+image: 'img/chokers/ch-zz-niquel2.jpg',
+keywords: [chokers, perlas, metal, niquel, gargantillas]
+
+name:'Collar Rusia',
+price:1490, 
+category: 'collares cortos',
+arrayColors:[{name: 'transparente', hexaColor: '#ffffff', image: 'img/collares_cortos/c-rusia-boreal.jpg', main: true}, {name: 'Negro', hexaColor: '#000000',image: 'img/collares_cortos/c-rusia-negro.jpg', main: false}], 
+description:"Collar de cristal de roca facetado con detalles de metal.",
+image: 'img/collares_cortos/c-rusia-boreal2.jpg',
+keywords: [collares, cortos, cristales, negro, noche, fiesta]
+
+name:'Collar Toledo',
+price:1250, 
+category: 'collares cortos',
+arrayColors:[{name: 'Niquel', hexaColor: '#c8c6b9', image: 'img/collares_cortos/c-toledo.jpg', main: true}], 
+description:"Collar doble de metal con piedra agata y borla de metal.",
+image: 'img/chokers/ch-zz-niquel2.jpg',
+keywords: [collares, cortos, agata, metal, borla]
+
+name:'Collar India',
+price:870, 
+category: 'collares largos',
+arrayColors:[{name: 'Negro', hexaColor: '#000000', image: 'img/collares_largos/c-india_negro.jpg', main: false}, {name: 'Blanco', hexaColor: '#ffffff', image: 'img/collares_largos/c-india_bco.jpg', main: true}], 
+description:"Collar largo de madera, critales y hematite con borla y detalles de metal.",
+image: 'img/collares_largos/c-india_bco2.jpg',
+keywords: [collares, largos, cristales, negro, blanco, madera, bohemio, hippie]
+
+name:'Rosario de perlas',
+price:750, 
+category: 'rosarios',
+arrayColors:[{name: 'Negro', hexaColor: '#000000', image: 'img/collares_largos/c-india_negro.jpg', main: false}, {name: 'Blanco', hexaColor: '#ffffff', image: 'img/collares_largos/c-india_bco.jpg', main: true}], 
+description:"Rosario chico de perlas con cruz y detalles de metal.",
+image: 'img/collares_largos/c-india_bco2.jpg',
+keywords: [rosarios, perlas, cruz, metal, cruces]

@@ -1,0 +1,56 @@
+.container_info_user h3{
+    font-size: 40px;
+    font-family: 'Nanum Regular';
+    font-weight: 250;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px ;
+}
+.new_adress{
+    padding-top: 35px;
+    display:flex;
+    width: 25%;
+    margin: auto;
+    flex-direction: column;
+}
+.new_adress input{
+    padding:8px;
+    margin: 10px 10px 30px 10px;
+}
+.new_adress label{
+    font-size: 14px;
+    font-family: 'Graphik';
+    font-weight: 450;
+    margin-left: 10px;
+}
+
+
+.btn_data_user{
+    padding-top: 35px;
+    display:flex;
+    width: 25%;
+    margin: auto;
+}
+.btn_enviar_adress, .btn_volver_user{
+    width: 100%;
+    color: white;
+    background-color: black;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    padding: 12px;
+    font-size: 12px;
+    font-family: 'Graphik';
+    font-weight: 450; 
+}
+.btn_enviar_adress:hover{
+    background-color: rgb(87, 87, 87);
+}
+.btn_volver_user:hover{
+    background-color: rgb(87, 87, 87);
+}
+
+.btn_volver_user:active, .btn_volver_user:visited, .btn_volver_user:link  {
+    text-decoration: none;
+}

@@ -1,0 +1,112 @@
+.product_title h1{
+    font-size: 30px;
+    font-family: 'Graphik';
+    font-weight: 550;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px ;
+}
+.product_container{
+    display:flex;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+}
+.product{
+    display: flex;
+    font-family: 'Graphik';
+    padding-top: 30px;
+}
+
+.product_left{
+    width: 100%;
+}
+
+.product_right{
+    width: 100%;
+}
+
+.product_name h1{
+    padding: 20px 0;
+    font-size: 24px;
+    font-family: 'Nanum Regular';
+    font-weight: 600;
+}
+.product_descr{
+    margin: 20px 0;
+}
+.product_descr p{
+    font-family: 'Graphik';
+    font-size: 18px;
+    color: #828282;
+}
+
+.product_price span{
+    font-family: 'Graphik';
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.product_colors {
+    padding: 20px 0;
+}
+.product_colors_name{ 
+    font-family: 'Graphik';
+    font-size: 18px;
+}
+
+.product_colors_img{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px 0;
+}
+
+.product_color_img{
+    width: 33px;
+    height: 33px;
+    margin-right: 8px;
+    cursor: pointer
+}
+
+.product_img{
+    width: 450px;
+    margin: 0 auto;
+}  
+
+.product_img img{
+    width: 100%;
+}
+
+.product_colors_list{
+    width: 100%;
+}
+
+.product_colors_list select{
+    width: 100%;
+    padding: 15px 2px;
+    border: #ebeced solid .7px;
+}
+.product_colors_list select > option{
+   font-size: 14px;
+   padding: 20px 0;
+}
+
+select:focus{
+    outline: none;
+}
+
+.product_cart_btn {
+    cursor: pointer;
+    padding: 15px;
+    font-size: 12px;
+    font-family: 'Graphik';
+    font-weight: 450;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+.product_cart_btn:hover {
+    background-color: rgb(88, 88, 88);
+}

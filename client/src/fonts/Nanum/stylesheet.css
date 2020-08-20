@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Nanum Regular';
+    src: url('NanumMyeongjo-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Nanum Bold';
+    src: url('NanumMyeongjo-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Nanum ExtraBold';
+    src: url('NanumMyeongjo-ExtraBold.ttf');
+}

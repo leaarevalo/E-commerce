@@ -1,0 +1,11 @@
+.rev-container {
+  display: flex;
+  width: 100%;
+}
+.item_rev_name,
+.item_rev_description,
+.item_rev_user {
+  justify-content: start;
+  align-items: flex-start;
+  padding: 15px 5px;
+}

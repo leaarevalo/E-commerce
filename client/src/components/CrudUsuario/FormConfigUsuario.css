@@ -1,0 +1,51 @@
+.btn_user{
+    padding-top: 15px;
+    display:flex;
+    width: 20%;
+    margin: auto;
+    flex-direction: column;
+}
+.btn_1, .btn_2, .btn_3, .btn_4, .btn_5{
+    color: white;
+    background-color: black;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 30px;
+    padding: 12px;
+    font-size: 12px;
+    font-family: 'Graphik';
+    font-weight: 450;
+    margin: 10px 0;
+}
+.btn_1:hover{
+    background-color: #9ba0a5;
+}
+.btn_2:hover{
+    background-color: #9ba0a5;
+}
+.btn_3:hover{
+    background-color: #9ba0a5;
+}
+.btn_4:hover{
+    background-color: #9ba0a5;
+}
+.btn_5:hover{
+    background-color: #9ba0a5;
+}
+
+.btn_1:link, .btn_1:visited, .btn_1:active {
+    text-decoration:none;   
+}
+.btn_2:link, .btn_2:visited, .btn_2:active {
+    text-decoration:none;   
+}
+.btn_3:link, .btn_3:visited, .btn_3:active {
+    text-decoration:none;   
+}
+.btn_4:active, .btn_4:visited, .btn_4:link  {
+    text-decoration: none;
+}
+.btn_5:active, .btn_5:visited, .btn_5:link  {
+    text-decoration: none;
+}

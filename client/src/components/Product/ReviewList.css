@@ -1,0 +1,19 @@
+.review_list{
+    display:flex;
+    width: 60%;
+    margin: auto;
+    flex-direction: column;
+    padding:0 0 40px 120px;
+}
+.container_reviews_product{
+    display:flex;
+    width: 60%;
+    margin-top: 10px;
+}
+.container_reviews_product h2{
+    font-size: 30px;
+    font-family: 'Graphik';
+    font-weight: 450;
+    text-align: left;
+    padding: 30px 0 0 0;
+}

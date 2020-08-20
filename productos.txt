@@ -1,0 +1,40 @@
+CATEGORIAS:
+Colares cortos
+Collares largos
+Chokers
+Rosarios
+Pulseras
+Aros
+
+PRODUCTOS:
+name:'Pulsera Noruega',
+price:1050, 
+category: 'pulseras',
+arrayColors:[{name: 'Negro', hexaColor: '#000000', image: 'img/pulseras/p-noruega-negro.jpg', main: true}, {name: 'Rojo', hexaColor: '#ff3636',image: 'img/pulseras/p-noruega-rojo.jpg', main: false}], 
+description:"Pulsera en gamuza con cristal de roca facetado, agatas y detalles de metal."
+image: ,
+keywords: [pulseras, gamuza, agatas, metal, piedras, cristales]
+
+name:'Pulsera Cubos',
+price:1150, 
+category: 'pulseras',
+arrayColors:[{name: 'Aqua', hexaColor: '#9bcfcb', image:'img/pulseras/cubos-gamuza.jpg', main: true}, {name: 'Ambar', hexaColor: '#f5b277', image:'img/pulseras/cubos-gamuza2.jpg', main: false}], 
+description:"Pulsera en gamuza con cristales cúbicos y detalles de metal."},
+image: ,
+keywords: [pulseras, gamuza, metal, cristales, cubos, cúbicos, cuadrados]
+
+name:'Pulsera Quebec',
+price:850,  
+category: 'pulseras', 
+arrayColors:[{name: 'Humo', hexaColor: '#b4b0b0', image:'img/pulseras/p-quebec-humo.jpg', main: true}, {name: 'Azul', hexaColor: '#2329ff', image:'img/pulseras/p-quebec-azul.jpg', main:false}], 
+description:"Pulsera elastizada triple de cristal de roca facetado, con detalles de metal."},
+image: ,
+keywords: [pulseras, elastizada, triple, metal, cristales, brazalete, fiesta, noche]
+
+name:'Pulsera Medieval',
+price:990, 
+category: 'pulseras',
+arrayColors:[{name: 'Ambar', hexaColor: '#f5b277', image:'img/pulseras/p-medieval-ambar.jpg', main: true}, {name: 'Humo', hexaColor: '#b4b0b0', image:'img/pulseras/p-medieval-humo.jpg', main: false}], 
+description:"Pulsera diseñada con cristales de roca facetados y detalles de metal."}
+image: ,
+keywords: [pulseras, metal, cristales]

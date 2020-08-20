@@ -1,0 +1,148 @@
+.danger {
+    color: red;
+}
+.bg_form{
+    margin-top: 50PX;
+}
+.titulo_form{
+    display: flex;
+    justify-content: space-between;    
+    font-family: 'Graphik';
+    height: 50px;
+    align-items: center;
+}
+.titulo_form h2{
+    font-weight: 500;
+    font-size: 16px;
+}
+/*FORMULARIO*/
+.crud_create_product_form{
+    padding-top: 15px; 
+    font-family: 'Graphik'; 
+}
+.basic_data_product{
+    display: flex;  
+    width: 100%;
+}
+.form_left{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.form_right{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.form_input_name, .form_input_desc, .form_input_price, .form_select_category, .form_input_keywords, .form_input_submit, .form_input_image{
+    padding-top: 27px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-start;
+}
+.colors_submit{
+    width: 100%;
+}
+.colors_submit input{
+    margin-left:10px;
+}
+.crud_create_product_form label{
+    padding: 8px 0;
+    width: 23%;  
+}
+.crud_create_product_form input{
+    width: 72%;
+    padding: 0 5px;
+    font-family: 'Graphik';
+    font-size: 16px ;
+    border: .8px solid #d7d8da;
+}
+.crud_create_product_form textarea{
+    width: 72%;
+    padding: 5px;
+    font-family: 'Graphik';
+    font-size: 16px ;
+    border: .8px solid #d7d8da;
+}
+.product_description {
+    padding: 8px;
+}
+.form_select_category{
+    padding-bottom: 12px;
+}
+.form_select_category .select_cat{
+    width: 100%;
+    padding: 0 8px;
+    font-family: 'Graphik';
+    font-size: 16px ;
+    border: .8px solid #d7d8da;
+}
+.formP_input_submit{
+    width: 30%;
+    margin: 30px auto;
+} 
+input.btn_guardar_producto {
+    padding: 12px 45px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'Graphik';
+    font-weight: 450;
+    margin-top: 30px;
+    align-self: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+input.btn_guardar_producto:hover {
+    background-color: #9ba0a5;
+}
+
+/*COMPONENTE COLORSCREATE*/
+.colors_form{
+    margin-top: 35px;
+    width: 100%;
+    background-color: #ebeced;
+}
+.colors_submit{
+    display: flex;
+    padding-top: 27px;
+    width: 100%;
+    justify-content: flex-start;
+}
+.title_colors{
+    padding: 20px;
+    font-family: 'Graphik';
+    font-size: 16px ;
+    font-weight: 450;
+}
+.popup_color{
+    background-color: white;
+    width: 22%;
+    min-height: 450px;
+    position: absolute;
+    left: 38%;
+    top: 27%;
+    border: 1px solid rgb(168, 168, 168);
+    padding: 20px;
+    display: none;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.56);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.56);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.56);
+}
+.colors_btn{
+    width: 39%;
+    padding: 12px;
+    font-size: 12px;
+    font-family: 'Graphik';
+    font-weight: 450;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.colors_btn:hover {
+    background-color: #9ba0a5;
+}
